@@ -1,0 +1,16 @@
+create table MadZoo_GYM(
+MEM_ID int,
+MEM_Name varchar(50),
+MEM_Weight varchar(10),
+NOof_matches varchar(10),
+Coaching_hr varchar(10),
+MEMship_plan varchar (20),
+MEMship_type varchar (500),
+MEMfee int,
+matchFEE int,
+CoachingFEE int,
+total_Payment int,
+primary key (MEM_ID)
+);
+
+select * from MadZoo_GYM
